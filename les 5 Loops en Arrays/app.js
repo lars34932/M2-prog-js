@@ -15,11 +15,12 @@ class App
         console.log(this.tekencircel())
         
     }
+
     tekencircel()
     {
         let canvas = document.getElementById("canvasId")
         let g = canvas.getContext("2d");
-        for (let i = 0; i <= 200; i++) 
+        for (let i = 0; i <= 400; i++) 
         {
             let x = Math.floor(Math.random() * 3000);
             let y = Math.floor(Math.random() * 2000);
